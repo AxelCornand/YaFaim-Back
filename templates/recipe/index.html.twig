@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Recettes{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Recettes</h1>
+    <a href="{{ path('app_recipe_new') }}" class="btn btn-sm btn-success">Ajouter une recette</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th class="name">Nom</th>
+                <th class="instruction">Instruction</th>
+                <th>Image</th>
+                <th>Temps de Préparation</th>
+                <th>Temps de Cuisson</th>
+                <th>Nombre de personnes</th>
+                <th>Difficulté</th>
+                <th class="slug">Slug</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for recipe in recipes %}
+            <tr>
+                <td>{{ recipe.id }}</td>
+                <td>{{ recipe.name }}</td>
+                <td>{{ recipe.instruction }}</td>
+                <td><img src="{{ recipe.poster }}" width="100px" height="70px"></td>
+                <td>{{ recipe.preptime }}</td>
+                <td>{{ recipe.cooktime }}</td>
+                <td>{{ recipe.nbperson }}</td>
+                <td>{{ recipe.difficulty }}</td>
+                <td>{{ recipe.slug }}</td>
+                <td>
+                    <div class="button">
+                        <a href="{{ path('app_recipe_show', {'id': recipe.id}) }}"
+                            class="btn btn-sm btn-primary">Voir</a>
+                        <a href="{{ path('app_recipe_edit', {'id': recipe.id}) }}"
+                            class="btn btn-sm btn-warning">Modifier</a>
+                        {% if is_granted("ROLE_ADMIN") %}
+                        <div class="delete">
+                            {{ include('recipe/_delete_form.html.twig') }}
+                        </div>
+                    </div>
+                    {% endif %}
+
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="10">no records found</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

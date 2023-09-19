@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ingredients{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Ingrédients</h1>
+    <a href="{{ path('app_ingredient_new') }}" class="btn btn-sm btn-success">Ajouter un ingrédient</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Date d'Expiration</th>
+                <th>Slug</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for ingredient in ingredients %}
+            <tr>
+                <td>{{ ingredient.id }}</td>
+                <td>{{ ingredient.name }}</td>
+                <td>{{ ingredient.expirationDate ? ingredient.expirationDate|date('Y-m-d') : '' }}</td>
+                <td>{{ ingredient.slug }}</td>
+                <td>
+                    <div class="button">
+                        <a href="{{ path('app_ingredient_show', {'id': ingredient.id}) }}"
+                            class="btn btn-sm btn-primary">Voir</a>
+                        <a href="{{ path('app_ingredient_edit', {'id': ingredient.id}) }}"
+                            class="btn btn-sm btn-warning">Modifier</a>
+                        {% if is_granted("ROLE_ADMIN") %}
+                        <div class="delete">
+                            {{ include('ingredient/_delete_form.html.twig') }}
+                        </div>
+                    </div>
+                    {% endif %}
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,1136 @@
+[33mcommit 8d206544ca19b9ddd175b5cf5b3c11fd5010b214[m[33m ([m[1;36mHEAD -> [m[1;32mrecipe_for_ingredients/ApiController[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 27 16:38:32 2023 +0200
+
+    request finish
+
+[33mcommit 83058ce859f74ca3cae425a4511ba8d655c1840d[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 27 15:28:47 2023 +0200
+
+    request ok
+
+[33mcommit 660f874c1853cc34fdbaad23d1d48a112488a4ff[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 27 14:18:57 2023 +0200
+
+    request finish
+
+[33mcommit f6fb899e7b374e67623c89411be71ac58834d7ec[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 27 09:47:23 2023 +0200
+
+    modification search one unique recipe for ingredients
+
+[33mcommit 747437a67320c543a8422f4fa7b9f6464af3fffc[m
+Merge: ac1da5d 767869b
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Wed Apr 26 16:56:08 2023 +0200
+
+    Merge pull request #44 from O-clock-Newton/layout_of_the_site
+    
+    Layout of the site
+
+[33mcommit 767869ba7cb66799058d31e1f961a169acf2cf22[m
+Merge: a2c3071 ac1da5d
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 26 16:55:31 2023 +0200
+
+    Merge branch 'dev' into layout_of_the_site
+
+[33mcommit a2c3071254aeeef11ed2214c55eb8df81da451aa[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 26 16:55:04 2023 +0200
+
+    layout finish
+
+[33mcommit ac1da5dca4b6dae7c027e9f192e9e4b474e534cb[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 26 16:02:57 2023 +0200
+
+    methode changeUser review WIP
+
+[33mcommit b6f534e5403b9a5f66a79631cade0ff6ce5164d5[m
+Merge: 40d83a0 bc923cd
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 26 14:50:26 2023 +0200
+
+    Merge branch 'dev' into layout_of_the_site
+
+[33mcommit 40d83a0052869b24463295a410376b2dacbbf38e[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 26 14:49:47 2023 +0200
+
+    WIP for layout
+
+[33mcommit bc923cd70b57cb8ddcd5fc5a3af9b6d8853dc7c3[m
+Merge: 4d33cb0 68bf05c
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 26 12:55:02 2023 +0200
+
+    Merge branch 'dev' of github.com:O-clock-Newton/projet-11-y-a-faim-back into dev
+
+[33mcommit 4d33cb033ec0eb929161a6ec1430476c8313f308[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 26 12:54:41 2023 +0200
+
+     add Assert\regex for lastname and firstname in entity user to allow accent
+
+[33mcommit 68bf05cc72f154eb2a35ab10ed25c0d4c0c4fc8c[m
+Merge: 110dbb8 c693cb0
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Wed Apr 26 08:24:44 2023 +0200
+
+    Merge pull request #43 from O-clock-Newton/passwordreset
+    
+    Passwordreset
+
+[33mcommit c693cb023e98d6baf76249b71d2dd1deb4519846[m[33m ([m[1;31morigin/passwordreset[m[33m)[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 26 08:22:21 2023 +0200
+
+    method passwordchange okay
+
+[33mcommit e2a0e674eddfce56aca4d359c9b882a70874c4d6[m
+Merge: e222f73 110dbb8
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 25 11:38:17 2023 +0200
+
+    Merge branch 'dev' into passwordreset
+
+[33mcommit e222f737a3dd8aec5ba9be6785cf6997be54239c[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 25 11:38:00 2023 +0200
+
+    WIP passwordreset
+
+[33mcommit 110dbb8bed1a7be7d1ccdb3b2dbd6910b61580f9[m
+Merge: e07b59d 5e3c0f5
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Tue Apr 25 11:36:32 2023 +0200
+
+    Merge pull request #42 from O-clock-Newton/request_ingredient_list/ApiController
+    
+    request findByIngredientName modification for search by name whereas id
+
+[33mcommit 5e3c0f5cfc86593d4a1245e16c944371c96079fd[m[33m ([m[1;31morigin/request_ingredient_list/ApiController[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 25 11:35:20 2023 +0200
+
+    request findByIngredientName modification for search by name whereas id
+
+[33mcommit e07b59def223013784bd6ef029c360e488279660[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 24 17:34:50 2023 +0200
+
+    modif form to add some groups
+
+[33mcommit 3c69406a73e3c86b06aac8c2a6158a7f42faaaee[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 24 17:19:31 2023 +0200
+
+    modif user/info to catch user info with bearer
+
+[33mcommit 7e10df93b087db73fe91e620217c5223a74f1b44[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Mon Apr 24 10:47:30 2023 +0200
+
+    modif recipeList json
+
+[33mcommit 01af5094703bed219eb0ed3250dcd78e1fb4a995[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Mon Apr 24 10:34:36 2023 +0200
+
+    modif builder recipeingredient
+
+[33mcommit fde54e0abd1f3e66f95ca65a20c320eb567f2a95[m
+Merge: 744d15c 2061e88
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Mon Apr 24 10:25:41 2023 +0200
+
+    Merge pull request #39 from O-clock-Newton/quantity_measure/show
+    
+    Quantity measure/show
+
+[33mcommit 2061e88c38a45d8039a1224383da9864f4eec197[m[33m ([m[1;31morigin/quantity_measure/show[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Mon Apr 24 10:25:04 2023 +0200
+
+    quantity and measure on recipe form
+
+[33mcommit 97769d30ecf7922e1c5560c5d05873acebad948f[m
+Merge: bfb4a9a 744d15c
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Mon Apr 24 09:53:54 2023 +0200
+
+    Merge branch 'dev' into quantity_measure/show
+
+[33mcommit 744d15cd4ef66de7e77bb11d33296f123f82021b[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 24 09:52:06 2023 +0200
+
+    return http json error if error
+
+[33mcommit bfb4a9ab30e4d5debab6412dbe51687ab156874c[m
+Merge: ff18fbb 9801764
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Mon Apr 24 09:29:20 2023 +0200
+
+    Merge branch 'dev' into quantity_measure/show
+
+[33mcommit 9801764e855779eb09be5123928f43707bb1aafa[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 24 09:27:34 2023 +0200
+
+    return http json error if error
+
+[33mcommit 5d26e3271b784266b97ec032fa331d2c63cb1e15[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 24 09:13:55 2023 +0200
+
+    return http json error if error
+
+[33mcommit 2489a82cb6f96d99369aec86409df615474c34cf[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 24 09:11:13 2023 +0200
+
+    return http json error if error
+
+[33mcommit 8722048a3dc74ec101901fb286ef8be0bff9bf7a[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 24 08:51:11 2023 +0200
+
+    return http json error if error
+
+[33mcommit a265ea5c44fc9f7d588799bac37fd51e015fc660[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 24 08:37:23 2023 +0200
+
+     add some rules for user method
+
+[33mcommit ff18fbb9ffb971e4efc406aa56fafa731ff283b4[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 21 17:49:01 2023 +0200
+
+    WIP
+
+[33mcommit 28757b8af6af695c1f6887a490ec7f73d58d0ee3[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 21 17:47:29 2023 +0200
+
+    WIP
+
+[33mcommit 2b738f6db25fa30c2f6bb4521c9b26c1897abeba[m
+Merge: b5ec8c1 69a69dd
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 21 14:40:10 2023 +0200
+
+    Merge branch 'dev' into quantity_measure/show
+
+[33mcommit b5ec8c123ffa324e4003f2478ba8147d530fd443[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 21 14:39:36 2023 +0200
+
+    WIP
+
+[33mcommit 69a69dd6d05102aa0f77d2ec07b6f0d674a2c189[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 21 13:59:31 2023 +0200
+
+    add security on api/user method
+
+[33mcommit a057fc64353ca538fc2874a84a59008b0451424f[m
+Merge: 5f4f9ea cf3cc33
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 21 11:37:33 2023 +0200
+
+    Merge pull request #38 from O-clock-Newton/quantity/ingredient
+    
+    debug findbyingredient
+
+[33mcommit cf3cc339e56ae5ccaf2bd82d662eb3a2f3a7e5b2[m[33m ([m[1;31morigin/quantity/ingredient[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 21 11:36:53 2023 +0200
+
+    debug findbyingredient
+
+[33mcommit 5f4f9ea69c8319948f6ca6b7e3e9cf31f6651af9[m
+Merge: 3be7619 054c512
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 21 10:39:14 2023 +0200
+
+    Merge pull request #37 from O-clock-Newton/quantity/ingredient
+    
+    Quantity/ingredient
+
+[33mcommit 054c512e8dae69251639704183eb2ac797cfa92b[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 21 10:38:36 2023 +0200
+
+    Modif DB quantity and measure for ingredient and request for all recipeList
+
+[33mcommit d2ed7b59b5fd0b3c4dfd86921cc12d5edb8eace6[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 20 16:53:17 2023 +0200
+
+    WIP in form creation
+
+[33mcommit deaa9bba82f27329d4d55fcc211f1c923f82f88a[m
+Merge: 3df5923 3be7619
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 19 16:40:11 2023 +0200
+
+    Merge branch 'dev' of github.com:O-clock-Newton/projet-11-y-a-faim-back into dev
+
+[33mcommit 3df59235107d79c93e0137b07111e5292b365d0a[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 19 16:40:06 2023 +0200
+
+    WIP
+
+[33mcommit 3be76198092956114ead48ffbd93aa607db6bd29[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 19 16:39:35 2023 +0200
+
+    add Groups to ingredient
+
+[33mcommit 4cf594bebc23e9de45c843c14df94d1315ed37b3[m
+Merge: 846913b b967299
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Wed Apr 19 11:44:04 2023 +0200
+
+    Merge pull request #36 from O-clock-Newton/Test_slug
+    
+    slug for ingredient and recipe
+
+[33mcommit b967299ba6da6966973247aa5d14b55d5a94ae00[m[33m ([m[1;31morigin/Test_slug[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 19 11:43:05 2023 +0200
+
+    slug for ingredient and recipe
+
+[33mcommit 846913bf200b9e46bff5e93b46fa2b4d85868fa0[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 19 11:21:40 2023 +0200
+
+    anonyme for /api
+
+[33mcommit d5a5fbb09019f5695902d1f3fb65203021fff9e0[m
+Merge: 63e3e03 b48f853
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Wed Apr 19 10:59:23 2023 +0200
+
+    Merge pull request #35 from O-clock-Newton/user_info/ApiController
+    
+    User info/api controller
+
+[33mcommit b48f853942fdc35bea390f3e4379165809b87601[m[33m ([m[1;31morigin/user_info/ApiController[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 19 10:58:45 2023 +0200
+
+    method for one user info
+
+[33mcommit 4ee20efd8e273f6fb3c21fec461e5e6ac1d78723[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 19 10:48:46 2023 +0200
+
+    test
+
+[33mcommit 63e3e032cc9febef41934b22c1bd2c956a5222e8[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 19 10:40:54 2023 +0200
+
+    add path in securtiy.yaml
+
+[33mcommit 145ea2093c0930efdc9ffc743ac6b42270080b33[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 18 18:15:04 2023 +0200
+
+     nelmio core bundle add to the project et setup
+
+[33mcommit 55a1616b2bb4e739f63d38d7e4ffc8e13cda0c90[m
+Merge: 245e040 3fd86e2
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 18 15:49:42 2023 +0200
+
+    Merge branch 'dev' of github.com:O-clock-Newton/projet-11-y-a-faim-back into dev
+
+[33mcommit 245e0403b2169d5088fa15ef6a48bdcc74d15ea4[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 18 15:44:07 2023 +0200
+
+    test
+
+[33mcommit 3fd86e27a62f177b94d68fba6693ad65a9496877[m
+Merge: a2ab591 839db31
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 18 15:43:15 2023 +0200
+
+    Merge branch 'dev' of github.com:O-clock-Newton/projet-11-y-a-faim-back into dev
+
+[33mcommit a2ab5917a6e3fb89e286f2f362a8639045d8bf85[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 18 15:41:50 2023 +0200
+
+    change for the road
+
+[33mcommit 839db31a3da3a09c60f240a9b2cc3580ec5cfa0c[m
+Merge: 9488816 916a735
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 18 15:34:18 2023 +0200
+
+    Merge branch 'dev' of github.com:O-clock-Newton/projet-11-y-a-faim-back into dev
+
+[33mcommit 9488816d4f8210d3d2e0ecb1c6d63e672fdc568f[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 18 15:32:55 2023 +0200
+
+    test
+
+[33mcommit 916a7352a9dadbeea466d6a2f4b93a9fb5ffd490[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 18 15:32:08 2023 +0200
+
+    change in persist flush create user
+
+[33mcommit 55ed4b5fa8f28f109a890b287d4f92d9c1d60dc7[m
+Merge: 6a6878c bc87e05
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Tue Apr 18 15:23:35 2023 +0200
+
+    Merge pull request #34 from O-clock-Newton/Api-ingredient
+    
+    Api ingredient
+
+[33mcommit bc87e055333562d62bf92a5f3657048c59c46136[m
+Merge: 09e0804 6a6878c
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Tue Apr 18 15:23:26 2023 +0200
+
+    Merge branch 'dev' into Api-ingredient
+
+[33mcommit 09e0804f3c199cc6791a903a3c4ab075b02c1e3d[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 18 15:17:03 2023 +0200
+
+    method for all recipe for one or many ingredients
+
+[33mcommit 6a6878c4dcaa95ce4ad618c263342cbe3f8e51cb[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 18 12:09:40 2023 +0200
+
+    WIP comment
+
+[33mcommit 3a0821be133270a3bb82811de76c9f091e87a416[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 18 12:03:37 2023 +0200
+
+    testForRecipeByIngredient
+
+[33mcommit cc468b03cd8afd6544fbd91ec8e43b88ce63774b[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 18 10:30:12 2023 +0200
+
+    remove request ingredients for a recipe in the ApiController
+
+[33mcommit f705dc4f5183305a74b622c509a9d8e7e806df32[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Mon Apr 17 16:24:34 2023 +0200
+
+    WIP comment code
+
+[33mcommit 86f135c4c3195ec790ec8fa43370d48b2e41edc1[m
+Merge: 1ff299f b60aaf7
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Mon Apr 17 10:39:22 2023 +0200
+
+    Merge pull request #33 from O-clock-Newton/JWt-token
+    
+    add password hash for POST request userJson
+
+[33mcommit b60aaf7c4fac40ea25d266150b94029c7788f982[m[33m ([m[1;31morigin/JWt-token[m[33m)[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 17 10:38:48 2023 +0200
+
+    add password hash for POST request userJson
+
+[33mcommit 1ff299fa271f14c40f1c83cfe55564bde4487726[m
+Merge: 0343acc 04534d0
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Mon Apr 17 10:04:51 2023 +0200
+
+    Merge pull request #32 from O-clock-Newton/JWt-token
+    
+    add method to catch json from front for user login in apiController
+
+[33mcommit 04534d0cfbc868e12ad11f0f061c91e1bfff9748[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Mon Apr 17 10:03:54 2023 +0200
+
+    add method to catch json from front for user login in apiController
+
+[33mcommit 0343acca4b0779d224f791ec63c95f7284c06667[m
+Merge: 25677a9 092ed96
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Fri Apr 14 15:32:46 2023 +0200
+
+    Merge pull request #31 from O-clock-Newton/JWt-token
+    
+    J wt token
+
+[33mcommit 092ed96ef858ff651f9dc726211cc1f6935a4341[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 14 15:31:45 2023 +0200
+
+    WIP ApiController
+
+[33mcommit 7a67022e1f61d7bb8ace16930cd64cb7344ca1b5[m
+Merge: dfea945 81c90f3
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 14 15:24:19 2023 +0200
+
+    i
+
+[33mcommit dfea9459159f9537333b3acdae0c71e5a0c32af5[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 14 15:21:48 2023 +0200
+
+    WIP ApiController
+
+[33mcommit 81c90f3665a687b949518a31302891b1e06e0024[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 14 15:21:04 2023 +0200
+
+    WIP JWT
+
+[33mcommit 9d5f20506c74e03c572a05e0566095ff3d6d9890[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 14 15:14:53 2023 +0200
+
+    WIP ApiController
+
+[33mcommit 2197638fcee9e6cc8110ab9e0c0d0a928849e7bf[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 14 14:46:06 2023 +0200
+
+    WIP Apicontroller
+
+[33mcommit 25677a934255f04e67c270e7686025bf18ae251b[m
+Merge: 8cb8a36 127e245
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 14 10:46:42 2023 +0200
+
+    Merge pull request #29 from O-clock-Newton/modif_user
+    
+    index and show firstname/lastname
+
+[33mcommit 127e245edae0d7c6e0a7aade5961e7a02c8ef9c6[m[33m ([m[1;31morigin/modif_user[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 14 10:45:24 2023 +0200
+
+    index and show firstname/lastname
+
+[33mcommit 8cb8a36829f0746612f3ab84e6576bfc7869a92f[m
+Merge: 6f7c763 aa2c74a
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Fri Apr 14 10:24:36 2023 +0200
+
+    Merge pull request #28 from O-clock-Newton/modif_user
+    
+    new user firstnameans lastname
+
+[33mcommit aa2c74a4d62f6d3db22d6863c67b4eaea7942efe[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Fri Apr 14 10:21:34 2023 +0200
+
+    new user firstnameans lastname
+
+[33mcommit 6f7c763f90cec1e680a64ffc77354cf04a46147b[m
+Merge: 1807254 1ab335c
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Fri Apr 14 10:03:07 2023 +0200
+
+    Merge pull request #27 from O-clock-Newton/myslugger
+    
+    recipe view slug collumn add in  back-office
+
+[33mcommit 1ab335cb6d14c43f407da9a566c19d25ae39fd3c[m[33m ([m[1;31morigin/myslugger[m[33m)[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 14 10:02:31 2023 +0200
+
+    recipe view slug collumn add in  back-office
+
+[33mcommit 18072548ceb7454b01ca78429b4adb91720ab068[m
+Merge: 0bedda9 ce29091
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 14 09:40:16 2023 +0200
+
+    Merge pull request #26 from O-clock-Newton/myslugger
+    
+    Myslugger ready to use
+
+[33mcommit ce2909181efcd1350c94c67f0a8bae26d0551cef[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 14 09:37:23 2023 +0200
+
+    Myslugger ready to use
+
+[33mcommit 0bedda99ad097a54425c83fccbac80a100436505[m
+Merge: bb9c143 58a5f8d
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 14 09:26:03 2023 +0200
+
+    Merge pull request #25 from O-clock-Newton/myslugger
+    
+    Myslugger for front ready waiting for use
+
+[33mcommit 58a5f8dcce0995f5f7c1619352c54db6855c840b[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Fri Apr 14 09:22:25 2023 +0200
+
+    Myslugger for front ready waiting for use
+
+[33mcommit bb9c143f8eb05125728de839ad04747c013216c3[m
+Merge: 0685394 8c92b42
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Thu Apr 13 15:53:57 2023 +0200
+
+    Merge branch 'dev' of github.com:O-clock-Newton/projet-11-y-a-faim-back into dev
+
+[33mcommit 0685394fbf85478349e57f8911a93708e1a46d5c[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Thu Apr 13 15:50:51 2023 +0200
+
+    test
+
+[33mcommit 8c92b42b56de3a574faf865b51190bf25e0ea429[m
+Merge: 3e91d66 a97aa47
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Thu Apr 13 15:49:52 2023 +0200
+
+    Merge pull request #24 from O-clock-Newton/builder/form
+    
+    Builder/form
+
+[33mcommit a97aa47b1864f7c063441ac3c989eb16ed41e55d[m[33m ([m[1;31morigin/builder/form[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 13 15:48:52 2023 +0200
+
+    builder form recipe
+
+[33mcommit bef2bf5dde3eb02808cd9cad2cf69c66f524ff82[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 13 15:03:26 2023 +0200
+
+    builder form user
+
+[33mcommit aac24892cd18ff75bd86598e8586390712b95788[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 13 15:01:07 2023 +0200
+
+    builder form ingredient check slug
+
+[33mcommit f91a3e395c2ee99a69a999927295239ab8dc6c54[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 13 14:40:30 2023 +0200
+
+    builder form diet
+
+[33mcommit 9be5a1e69331655c96a3bc4c5b4a591d92a3b711[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Thu Apr 13 14:38:27 2023 +0200
+
+    builder form category
+
+[33mcommit 3e91d660abcf78183168b3370abd5ffe7d61d1b9[m[33m ([m[1;31morigin/A01-backOffice[m[33m)[m
+Merge: a0b8c1e 1bcef36
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Wed Apr 12 14:54:49 2023 +0200
+
+    Merge pull request #23 from O-clock-Newton/A01-backOffice
+    
+    fix manager and admin role access
+
+[33mcommit 1bcef36bd5ec1fb0a9419631dff2b3646c986be8[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 14:54:16 2023 +0200
+
+    fix manager and admin role access
+
+[33mcommit a0b8c1e869a94d9a627927a610f1fec01a4dd89d[m
+Merge: 3868f6c eea5879
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Wed Apr 12 14:42:08 2023 +0200
+
+    Merge pull request #22 from O-clock-Newton/A01-backOffice
+    
+    git branchA01 back office
+
+[33mcommit eea5879b138888c07a67f966a861b76e84d9d375[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 14:41:02 2023 +0200
+
+    fix some forgotten bootstrap for back-office
+
+[33mcommit 3868f6c189e874c39ef651fe769d34bbdede8c1d[m
+Merge: b7771cf 1d46d1e
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 12 14:38:42 2023 +0200
+
+    Merge branch 'dev' of github.com:O-clock-Newton/projet-11-y-a-faim-back into dev
+
+[33mcommit b7771cf3a8a8737a7a3d56c11e5c0c4f84f92c8d[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 12 14:38:38 2023 +0200
+
+    correction function name
+
+[33mcommit ebbf912329b48b5bca2e1662b040be9ee9f50e1c[m
+Merge: b13c08c 1d46d1e
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 14:25:45 2023 +0200
+
+    Merge branch 'dev' into A01-backOffice
+
+[33mcommit 1d46d1e3c8bba9598c882b8fdb320f33f4984c2d[m
+Merge: c4eb901 b89347f
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Wed Apr 12 14:25:29 2023 +0200
+
+    Merge pull request #21 from O-clock-Newton/diet_form_request/Recipe
+    
+    Diet form request/recipe
+
+[33mcommit b89347f66e7d94646a8085eb0def9d07bbe82cd6[m[33m ([m[1;31morigin/diet_form_request/Recipe[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 12 14:24:22 2023 +0200
+
+    import diet in new recip
+
+[33mcommit 75ba34b8cc4c6ecbbc12bac3c897dee199c532c7[m
+Merge: 4258022 c4eb901
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 12 14:21:38 2023 +0200
+
+    Merge branch 'dev' into diet_form_request/Recipe
+
+[33mcommit 425802215c43ee2205812a8029f7d1423cd6d6ca[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 12 14:20:57 2023 +0200
+
+    WIP diet
+
+[33mcommit c4eb9015310331f8437b184b1404272b1cb2dfa4[m
+Merge: 43b0f9d 70891f5
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Wed Apr 12 14:20:15 2023 +0200
+
+    Merge pull request #20 from O-clock-Newton/A01-backOffice
+    
+    test
+
+[33mcommit b13c08c272d6aee9dc1b09510d4550da8492a389[m
+Merge: 70891f5 43b0f9d
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 14:17:13 2023 +0200
+
+    Merge branch 'dev' into A01-backOffice
+
+[33mcommit 70891f50fbaa2903f6e4c616b3a9490f9c65d17b[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 14:16:42 2023 +0200
+
+    test
+
+[33mcommit 43b0f9d4a2ef0724ee52ef052e3522625e35c942[m
+Merge: ed3ee97 fa94a91
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Wed Apr 12 14:15:20 2023 +0200
+
+    Merge pull request #19 from O-clock-Newton/category_form_request/Recipe
+    
+    MAJ DB and import catagory in new recip
+
+[33mcommit fa94a910d79d7a5ab2a308b982fac7b1760ef9e7[m[33m ([m[1;31morigin/category_form_request/Recipe[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 12 14:11:44 2023 +0200
+
+    MAJ DB and import catagory in new recip
+
+[33mcommit ed3ee97533c64c0d8083742f81b19775d0000841[m
+Merge: 553e839 e3cd82d
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Wed Apr 12 10:51:11 2023 +0200
+
+    Merge pull request #18 from O-clock-Newton/show_ingredient/request_recipe
+    
+    Ingredient in recipe request/recipe in ingredient request
+
+[33mcommit e3cd82d95f07afda2d65a7610c71b73742ceb524[m[33m ([m[1;31morigin/show_ingredient/request_recipe[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 12 10:50:34 2023 +0200
+
+    Ingredient in recipe request/recipe in ingredient request
+
+[33mcommit 553e839949f0a7f4f0df9c5a8ac1354d904d4f1a[m
+Merge: 1dae99e 40c4b3d
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Wed Apr 12 10:15:13 2023 +0200
+
+    Merge pull request #16 from O-clock-Newton/ingredient_selection/new_recipe
+    
+    selection of ingredient in new recipe
+
+[33mcommit 1dae99eb4a5d49ef1fa03d2d9ff660259f5c6ddc[m
+Merge: 1271c72 a40fc02
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Wed Apr 12 10:14:48 2023 +0200
+
+    Merge pull request #17 from O-clock-Newton/A01-backOffice
+    
+    fix all bootstrap and button color in the back-office
+
+[33mcommit a40fc0225daa576f89298032d614a7bea0603f42[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 10:14:12 2023 +0200
+
+    fix all bootstrap and button color in the back-office
+
+[33mcommit 40c4b3d5f55305350d4f44df640796a2d9bdbac9[m[33m ([m[1;31morigin/ingredient_selection/new_recipe[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Wed Apr 12 10:06:36 2023 +0200
+
+    selection of ingredient in new recipe
+
+[33mcommit 1271c7232c5d47e5661a3fdae8ebe5b275752ea1[m
+Merge: afcec12 c44fbdc
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Wed Apr 12 09:41:04 2023 +0200
+
+    Merge pull request #15 from O-clock-Newton/A01-backOffice
+    
+    remove delete button when manager is log into back-office
+
+[33mcommit c44fbdcd78e0b245b1ed159488669d67713dbf53[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 09:40:09 2023 +0200
+
+    remove delete button when manager is log into back-office
+
+[33mcommit afcec12f203ec43113cc517d0a1de0c8011a8787[m
+Merge: cd9ba0c 984e742
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Wed Apr 12 09:38:10 2023 +0200
+
+    Merge pull request #14 from O-clock-Newton/A01-backOffice
+    
+     manager role add with some security accès for back-office
+
+[33mcommit 984e7429ba4c66f35407d0e633c749456952f505[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 09:36:08 2023 +0200
+
+     manager role add with some security accès for back-office
+
+[33mcommit cd9ba0cbf087384209c32c6e27d6fde3fb80ee5e[m
+Merge: e3af58a c7462bb
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Wed Apr 12 09:21:50 2023 +0200
+
+    Merge pull request #13 from O-clock-Newton/A01-backOffice
+    
+    add randomRecipe method with subscriber
+
+[33mcommit c7462bb862549ae171f743f4251aa4bd7060d355[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Wed Apr 12 09:18:45 2023 +0200
+
+    add randomRecipe method with subscriber
+
+[33mcommit e3af58aa95e5e139da7521e8d2c569a3fbf89c36[m
+Merge: 8715d42 723bdb9
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Tue Apr 11 17:12:48 2023 +0200
+
+    Merge pull request #12 from O-clock-Newton/A01-backOffice
+    
+    loginForm loginController role for admin and user create and setup
+
+[33mcommit 723bdb9123d2fc9b94449a82b3b514aca4c27604[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 17:07:36 2023 +0200
+
+    loginForm loginController role for admin and user create and setup
+
+[33mcommit 8715d4232d67888e28a648e79c26ce108aa139d4[m
+Merge: 6d38718 a1035c2
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Tue Apr 11 15:42:21 2023 +0200
+
+    Merge pull request #10 from O-clock-Newton/A01-backOffice
+    
+    A01 back office
+
+[33mcommit a1035c2cada9c7a0bc9c470f33e9ef0d8ff18bc3[m
+Merge: 156a487 6d38718
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 15:39:27 2023 +0200
+
+    Merge branch 'dev' into A01-backOffice
+
+[33mcommit 156a4879e13a6876daed391454746dcd36e97568[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 15:39:07 2023 +0200
+
+    WIP backoffice
+
+[33mcommit 6d3871867ec62536f610759e393b71d7093f27f9[m
+Merge: 8a0289c 1734b62
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Tue Apr 11 15:37:26 2023 +0200
+
+    Merge pull request #9 from O-clock-Newton/render_json/diet
+    
+    Render json/diet
+
+[33mcommit 8a0289ca2bad17b41a07f3ec435e97d86e1de17a[m
+Merge: 490dbe0 c63a24f
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Tue Apr 11 15:37:16 2023 +0200
+
+    Merge pull request #8 from O-clock-Newton/render_json/category
+    
+    render_json/category
+
+[33mcommit 1734b62457681c376ab5da12972064cc8caa91c4[m[33m ([m[1;31morigin/render_json/diet[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 11 15:35:07 2023 +0200
+
+    render_json/diet
+
+[33mcommit c63a24f919d401dd6f8a41a4e0ff7e0b4daa20de[m[33m ([m[1;31morigin/render_json/category[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 11 15:31:24 2023 +0200
+
+    render_json/category
+
+[33mcommit 4be07cf5481ec2a83b632cc58ddf1d29ab7ffb82[m
+Merge: 7f72052 490dbe0
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 15:20:41 2023 +0200
+
+    Merge branch 'dev' into A01-backOffice
+
+[33mcommit 7f72052abadb80c724587ba8eccfb9104d2063ed[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 15:19:53 2023 +0200
+
+    Fixing backoffice
+
+[33mcommit 490dbe0ed11a5bccb50d1addc6c972ad15ab5cc1[m
+Merge: ae30d54 6ad907f
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Tue Apr 11 15:17:58 2023 +0200
+
+    Merge pull request #7 from O-clock-Newton/render_json/ingredient
+    
+    renderjson/ingredient
+
+[33mcommit 6ad907f18e45ac5fe9a8ceffdf836e3917807c64[m[33m ([m[1;31morigin/render_json/ingredient[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 11 15:15:29 2023 +0200
+
+    renderjson/ingredient
+
+[33mcommit ae30d543b4cdbe05a07a6b13a11ef0ea51a27ae0[m
+Merge: bae44c1 e53e3b1
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Tue Apr 11 14:49:37 2023 +0200
+
+    Merge pull request #5 from O-clock-Newton/A01-backOffice
+    
+    error fix on back-office
+
+[33mcommit e53e3b1f5d77de645b0b70c807eeec5de0eeba6f[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 14:48:47 2023 +0200
+
+    error fix on back-office
+
+[33mcommit bae44c1ff51197a277fd39d9536e64b0c58297f1[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 14:01:45 2023 +0200
+
+    Json render for recipes
+
+[33mcommit c2cd5baf0a9cd9dbd3e3016303c53b0552942077[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 13:33:08 2023 +0200
+
+    graphique render for recipe back-office
+
+[33mcommit 62f7afc87b0235f6983d8305b0f956f7bf07c966[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 13:01:01 2023 +0200
+
+    graphique render for recipe back-office
+
+[33mcommit 05c03a8e284a480141097b0bc60a465768961ef4[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 12:51:19 2023 +0200
+
+    graphique render for recipe back-office
+
+[33mcommit 491ac671a31bc9eb1097470f382309b70b7a4fcb[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 12:50:18 2023 +0200
+
+    graphique render for recipe back-office
+
+[33mcommit 6d59c52196f1ab61b510de3d3d825833883d1553[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 12:37:38 2023 +0200
+
+    graphique render for recipe back-office
+
+[33mcommit 169a4283d5cab3f7834e4d693e35de154e945f05[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 12:34:45 2023 +0200
+
+    graphique render for recipe back-office
+
+[33mcommit 1d9afbca33cffc1448cc3b121532fe8d1b092e8e[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 12:29:52 2023 +0200
+
+    graphique render for recipe back-office
+
+[33mcommit 49cab2680c43b2f51a367ef4f196ff7babdf1e0e[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 11:36:25 2023 +0200
+
+     Crud for all entity
+
+[33mcommit 8b948e8eb728bcf9bf2c0c0441e0b041af183120[m
+Merge: ce3f69e b48692b
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Tue Apr 11 11:26:58 2023 +0200
+
+    Merge pull request #4 from O-clock-Newton/entity/repository
+    
+    Entity/repository
+
+[33mcommit b48692b10c162d5fa2ca8575e0186f720a7338be[m[33m ([m[1;31morigin/entity/repository[m[33m)[m
+Merge: a211860 ce3f69e
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 11 11:23:58 2023 +0200
+
+    Merge branch 'dev' into entity/repository
+
+[33mcommit a211860c588a846bbd77bbe97a7948802228ed5f[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 11 11:21:50 2023 +0200
+
+    creation repository entity
+
+[33mcommit ce3f69e9ade50d3ec7ea0bb2130436c4fa5f34b3[m
+Merge: 2de57ca b18f64e
+Author: Axel Cornand <104928182+AxelCornand@users.noreply.github.com>
+Date:   Tue Apr 11 11:21:41 2023 +0200
+
+    Merge pull request #3 from O-clock-Newton/test-templateYaml
+    
+    templateYaml
+
+[33mcommit b18f64ec5f97186413c63f3c70ba3b4de24f19c6[m[33m ([m[1;31morigin/test-templateYaml[m[33m)[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 11:20:10 2023 +0200
+
+    templateYaml
+
+[33mcommit 2de57caa890b9c2f4015c18a513135c82f618923[m
+Merge: aa9564c 5342dc2
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Tue Apr 11 10:44:43 2023 +0200
+
+    Merge pull request #1 from O-clock-Newton/user/makeuser
+    
+    create user by make:user
+
+[33mcommit 5342dc22334725abec1540956829aa5c6fd599e1[m[33m ([m[1;31morigin/user/makeuser[m[33m)[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 11 10:41:07 2023 +0200
+
+    create user by make:user
+
+[33mcommit aa9564c68d9d5e0402739fc4a5611b09a3e69338[m
+Author: XavierGody <xaviergody@hotmail.com>
+Date:   Tue Apr 11 09:54:00 2023 +0200
+
+    entity DB
+
+[33mcommit e2bfcda3d03689965069e0b4f5c3fc16016262be[m
+Author: AxelCornand <axelcornand@msn.com>
+Date:   Tue Apr 11 09:46:28 2023 +0200
+
+    Symfo skeleton with composer and some require
+
+[33mcommit 5237f9819156478e09e8209d48bc8da06ed89beb[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:13:11 2023 +0200
+
+    Update README.md
+
+[33mcommit acdcd773cf115ec26c14d6ad7f55711713a6979f[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:09:13 2023 +0200
+
+    Update README.md
+
+[33mcommit cba8a18e722233657c7411f6d93608a8baa041b0[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:08:50 2023 +0200
+
+    Update README.md
+
+[33mcommit c19b5ce9182a89874255ef6c3fa2370308c0138a[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:08:30 2023 +0200
+
+    Update README.md
+
+[33mcommit 5c16b1252cd1152feaf4cb5f4da6aa445a3b0548[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:08:01 2023 +0200
+
+    Update README.md
+
+[33mcommit 43098aff165745375b4584e6eb43924362d0a776[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:07:39 2023 +0200
+
+    Update README.md
+
+[33mcommit e298e64f4e423709c87fbcd9716d978a4d0012a0[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:07:02 2023 +0200
+
+    Update README.md
+
+[33mcommit f6c10674c6291b6af91cfdeaac2560bfd08474c1[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:06:43 2023 +0200
+
+    Update README.md
+
+[33mcommit 43c06d3730551641d1b90f9c97c3df94d18ba190[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:05:26 2023 +0200
+
+    Update README.md
+
+[33mcommit 106e622c3fd01e062aaaff9a650780f6938741ff[m
+Author: XavierGody <105416975+XavierGody@users.noreply.github.com>
+Date:   Fri Apr 7 09:04:18 2023 +0200
+
+    Create README.md

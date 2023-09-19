@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Régimes{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Régimes</h1>
+    <a href="{{ path('app_diet_new') }}" class="btn btn-sm btn-success">Ajouter un Régime</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for diet in diets %}
+            <tr>
+                <td>{{ diet.id }}</td>
+                <td>{{ diet.name }}</td>
+                <td>
+                    <div class="button">
+                        <a href="{{ path('app_diet_show', {'id': diet.id}) }}" class="btn btn-sm btn-primary">Voir</a>
+                        <a href="{{ path('app_diet_edit', {'id': diet.id}) }}"
+                            class="btn btn-sm btn-warning">Modifier</a>
+                        {% if is_granted("ROLE_ADMIN") %}
+                        <div class="delete">
+                            {{ include('diet/_delete_form.html.twig') }}
+                        </div>
+                    </div>
+                    {% endif %}
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="3">no records found</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+{% endblock %}

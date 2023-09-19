@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Diet{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Modification Régime</h1>
+        <a href="{{ path('app_diet_index') }}" class="btn btn-sm btn-success">Revenir à la liste</a>
+    {{ include('diet/_form.html.twig', {'button_label': 'Mettre a jour'}) }}
+
+
+    {{ include('diet/_delete_form.html.twig') }}
+    </div>
+{% endblock %}

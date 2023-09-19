@@ -1,0 +1,87 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #aed6dc;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    color: #4a536b;
+}
+
+.noHover{
+    pointer-events: none;
+}
+
+a {
+    margin: 15px;
+    background-color: #4a536b;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #ff9a8d;
+    color: #4a536b;
+    text-decoration:none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.container {
+    background-color: #aed6dc;
+    margin: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body img {
+    border: 1px solid #333;
+    background-color : RGBa(255, 255, 0, 0.2);
+}
+
+th, td {
+    text-align: center;
+}
+
+.instruction {
+    width: 20%;
+}
+
+.slug, .name{
+    width: 10%;
+}
+
+.logo {
+    margin-top: 50px;
+    border: 1px solid #333;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary, .btn-danger, .btn-success, .btn-warning {
+    background-color: #4a536b;
+    color: white;
+}
+
+.btn-primary:hover, .btn-danger:hover, .btn-success:hover, .btn-warning:hover {
+    background-color: #ff9a8d;
+    color: #4a536b;
+    text-decoration:none;
+}
+
+.btn-danger {
+    margin: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

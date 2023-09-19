@@ -1,0 +1,47 @@
+{{ form_start(form) }}
+{{ form_widget(form) }}
+<button class="btn btn-sm btn-success">{{ button_label|default('Enregistrer') }}</button>
+
+<script>
+    const addTagLink = document.createElement('a')
+    addTagLink.classList.add('add_tag_list')
+    addTagLink.innerText = 'Ajouter un ingrédient'
+    addTagLink.dataset.collectionHolderClass = 'inject'
+
+
+
+    const collectionHolder = document.querySelector('.inject')
+    collectionHolder.appendChild(addTagLink)
+
+    const addFormToCollection = (e) => {
+        const collectionHolder = document.querySelector('.' + e.currentTarget.dataset.collectionHolderClass);
+
+        const item = document.createElement('li');
+
+        item.innerHTML = collectionHolder
+            .dataset
+            .prototype
+            .replace(
+                /name/g,
+                collectionHolder.dataset.index
+            );
+
+        collectionHolder.appendChild(item);
+
+        collectionHolder.dataset.index++;
+    }
+
+    addTagLink.addEventListener("click", addFormToCollection)
+</script>
+<style>
+    .add_tag_list
+    {
+        background-color: #aed6dc;
+    }
+    li 
+    {
+        list-style-type: none;
+        padding-top: 20px;
+    }
+</style>
+{{ form_end(form) }}

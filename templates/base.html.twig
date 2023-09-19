@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+
+    {% block stylesheets %}
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="{{ asset('css/yafaim.css') }}">
+    {% endblock %}
+
+    {% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+    {% endblock %}
+</head>
+
+<body class="gallery">
+    
+    <div class="container py-3 border-bottom card-body align-items-center d-flex justify-content-center">
+        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        <ul class="nav ">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('app_home_index') }}">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('app_recipe_index') }}">Recettes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('app_ingredient_index') }}">Ingrédients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('app_category_index') }}">Catégories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('app_diet_index') }}">Régimes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('app_user_index') }}">Utilisateurs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('app_logout') }}">Déconnexion</a>
+            </li>
+        </ul>
+        {% endif %}
+    </div>
+        {% block body %}
+
+        {% endblock %}
+</body>
+
+
+
+</html>

@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Diet{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Régime</h1>
+         <a href="{{ path('app_diet_index') }}" class="btn btn-sm btn-success">Revenir à la liste</a>
+
+        <a href="{{ path('app_diet_edit', {'id': diet.id}) }}" class="btn btn-sm btn-warning">Modifier</a>
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ diet.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ diet.name }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    {{ include('diet/_delete_form.html.twig') }}
+    </div>
+{% endblock %}

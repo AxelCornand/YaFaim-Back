@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Recipe{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Recette</h1>
+    <a href="{{ path('app_recipe_index') }}" class="btn btn-sm btn-success">Revenir à la liste</a>
+
+    <a href="{{ path('app_recipe_edit', {'id': recipe.id}) }}" class="btn btn-sm btn-warning">Modifier</a>
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ recipe.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ recipe.name }}</td>
+            </tr>
+            <tr>
+                <th>Image</th>
+                <td><img src="{{ recipe.poster }}" width="250px" height="220px"></td>
+            </tr>
+            <tr>
+                <th>Instruction</th>
+                <td>{{ recipe.instruction }}</td>
+            </tr>
+            <tr>
+                <th>Ingrédients</th>
+                <td>
+                {% for recipeIngredient in recipe.recipeIngredient %}
+                <li class="list-group-item js-scientist-item">
+                    {{ recipeIngredient.ingredient.name }}
+                    {{ recipeIngredient.quantity }}
+                    {{ recipeIngredient.measure}}
+                </li>
+                {% endfor %}
+                </td>
+            </tr>
+            <tr>
+                <th>Temps de Préparation</th>
+                <td>{{ recipe.preptime }}</td>
+            </tr>
+            <tr>
+                <th>Temps de Cuisson</th>
+                <td>{{ recipe.cooktime }}</td>
+            </tr>
+            <tr>
+                <th>Nombre de personnes</th>
+                <td>{{ recipe.nbperson }}</td>
+            </tr>
+            <tr>
+                <th>Difficulté</th>
+                <td>{{ recipe.difficulty }}</td>
+            </tr>
+            <tr>
+                <th>Slug</th>
+                <td>{{ recipe.slug }}</td>
+            </tr>
+        </tbody>
+    </table>
+    {{ include('recipe/_delete_form.html.twig') }}
+</div>
+{% endblock %}

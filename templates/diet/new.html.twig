@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Diet{% endblock %}
+
+{% block body %}
+<div class=" container">
+    <h1>Création Nouveau Régime</h1>
+        <a href="{{ path('app_diet_index') }}" class="btn btn-sm btn-success">Revenir à la liste</a>
+    {{ include('diet/_form.html.twig') }}
+</div>
+{% endblock %}
