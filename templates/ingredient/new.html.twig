@@ -6,6 +6,15 @@
 <div class="container">
     <h1>Création Nouvel Ingredient</h1>
     <a href="{{ path('app_ingredient_index') }}" class="btn btn-sm btn-success">Revenir à la liste</a>
+    
+    {% for flashMessage in app.flashes('danger') %}
+        <div class="alert alert-danger">{{ flashMessage }}</div>
+    {% endfor %}
+
+    {% for flashMessage in app.flashes('success') %}
+        <div class="alert alert-success">{{ flashMessage }}</div>
+    {% endfor %}
+    
     {{ include('ingredient/_form.html.twig') }}
 </div>
 {% endblock %}

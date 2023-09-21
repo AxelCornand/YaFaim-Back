@@ -5,8 +5,8 @@ namespace App\Controller;
 use App\Entity\Ingredient;
 use App\Service\MySlugger;
 use App\Form\IngredientType;
-use App\Repository\RecipeRepository;
 use App\Repository\IngredientRepository;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -17,6 +17,13 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
  */
 class IngredientController extends AbstractController
 {
+
+    private $entityManager;
+
+    public function __construct(EntityManagerInterface $entityManager)
+    {
+        $this->entityManager = $entityManager;
+    }
     /**
      * @Route("/", name="app_ingredient_index", methods={"GET"})
      */
@@ -31,7 +38,7 @@ class IngredientController extends AbstractController
     /**
      * @Route("/new", name="app_ingredient_new", methods={"GET", "POST"})
      */
-    public function new(Request $request, IngredientRepository $ingredientRepository,MySlugger $mySlugger): Response
+    public function new(Request $request, EntityManagerInterface $entityManager,MySlugger $mySlugger): Response
     {
         // creation of an instance of ingredient
         $ingredient = new Ingredient();
@@ -42,7 +49,17 @@ class IngredientController extends AbstractController
         // if the form is sent and complete then we save
         if ($form->isSubmitted() && $form->isValid()) {
             $ingredient->setSlug($mySlugger->slugify($ingredient->getName()));
-            $ingredientRepository->add($ingredient, true);
+            $existingIngredient = $this->entityManager
+                ->getRepository(Ingredient::class)
+                ->findOneBy(['name' => $ingredient->getName()]);
+
+            if ($existingIngredient) {
+                $this->addFlash('danger', 'Cet ingrédient existe déjà.');
+            } else {
+                $this->entityManager->persist($ingredient);
+                $this->entityManager->flush();
+            $this->addFlash('success', 'L\'ingrédient a été ajouté avec succès.');
+        }
             // returns to the path after validation
             return $this->redirectToRoute('app_ingredient_index', [], Response::HTTP_SEE_OTHER);
         }
