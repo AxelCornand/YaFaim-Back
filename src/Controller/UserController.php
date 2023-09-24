@@ -67,7 +67,7 @@ class UserController extends AbstractController
     /**
      * @Route("/{id}/edit", name="app_user_edit", methods={"GET", "POST"})
      */
-    public function edit(Request $request, User $user, UserRepository $userRepository): Response
+    public function edit(Request $request, User $user, UserRepository $userRepository, UserPasswordHasherInterface $userPasswordHasher): Response
     {
         // creation of the form
         $form = $this->createForm(UserType::class, $user);
@@ -75,6 +75,8 @@ class UserController extends AbstractController
         $form->handleRequest($request);
         // if the form is sent and complete then we save
         if ($form->isSubmitted() && $form->isValid()) {
+            $hashedPassword = $userPasswordHasher->hashPassword($user, $user->getPassword());
+            $user->setPassword($hashedPassword);
             $userRepository->add($user, true);
             // returns to the path after validation
             return $this->redirectToRoute('app_user_index', [], Response::HTTP_SEE_OTHER);
